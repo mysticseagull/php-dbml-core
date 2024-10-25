@@ -10,7 +10,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "MysticSeagull\\PhpDbmlCore\\": "src/"
+      "MysticSeagull\\DbmlCore\\": "src/"
     }
   },
   "authors": [
