@@ -6,7 +6,6 @@
 
 # Ignore the Node modules directory
 /node_modules/
-pnpm-lock.yaml
 
 # Ignore .vitepress
 docs/.vitepress/dist/
