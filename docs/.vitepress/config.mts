@@ -5,6 +5,7 @@ export default defineConfig({
   title: "PHP DBML Core",
   description: "A VitePress Site",
   srcDir: "src",
+  base: "/php-dbml-core/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

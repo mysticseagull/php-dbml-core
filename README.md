@@ -27,7 +27,7 @@ composer require mysticseagull/php-dbml-core --dev --with-all-dependencies
 To parse a DBML or SQL string into a `Database` object:
 
 ```php
-use MysticSeagull\PhpDbmlCore\Parser;
+use MysticSeagull\DbmlCore\Parser;
 
 $dbml = """
 Table users {
@@ -57,7 +57,7 @@ $database = Parser::fromSQL($sql);
 You can export your `Database` object to DBML or SQL:
 
 ```php
-use MysticSeagull\PhpDbmlCore\Exporter;
+use MysticSeagull\DbmlCore\Exporter;
 
 // Export to DBML
 $dbmlOutput = Exporter::toDBML($database);
@@ -71,7 +71,7 @@ $sqlOutput = Exporter::toSQL($database);
 To convert directly between DBML and SQL:
 
 ```php
-use MysticSeagull\PhpDbmlCore\Converter;
+use MysticSeagull\DbmlCore\Converter;
 
 // DBML to SQL
 $sql = Converter::dbmlToSql($dbml);
@@ -85,9 +85,9 @@ $dbml = Converter::sqlToDbml($sql);
 To generate DBML from a `DatabaseSchema` object:
 
 ```php
-use MysticSeagull\PhpDbmlCore\Generator;
+use MysticSeagull\DbmlCore\Generator;
 
-$databaseSchema = new MysticSeagull\PhpDbmlCore\DatabaseSchema();
+$databaseSchema = new MysticSeagull\DbmlCore\DatabaseSchema();
 // Define your database schema here
 
 $dbml = Generator::fromDatabaseSchema($databaseSchema);
