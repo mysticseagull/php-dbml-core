@@ -4,6 +4,14 @@
 # Ignore Composer lock file
 /composer.lock
 
+# Ignore the Node modules directory
+/node_modules/
+pnpm-lock.yaml
+
+# Ignore .vitepress
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
 # Ignore PHPUnit test results
 .phpunit.result.cache
 
