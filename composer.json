@@ -1,0 +1,27 @@
+{
+  "name": "mysticseagull/php-dbml-core",
+  "type": "library",
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "pestphp/pest": "^3.5"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "MysticSeagull\\PhpDbmlCore\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "MysticSeagull",
+      "email": "justinborzi@gmail.com"
+    }
+  ],
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
