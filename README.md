@@ -1,5 +1,8 @@
 # php-dbml-core
 
+> [!WARNING]
+> Caution: This package is a WIP and is not intended for usage yet.
+
 `php-dbml-core` is a PHP library designed to parse, convert, and manage different database formats. It provides essential functionality for handling DBML (Database Markup Language) and SQL, allowing developers to seamlessly transition between these formats.
 
 ## Features
